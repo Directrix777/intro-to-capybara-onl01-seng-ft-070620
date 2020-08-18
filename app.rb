@@ -4,4 +4,6 @@ class Application < Sinatra::Base
     erb :index
   end
 
+  post '/' 
+
 end
